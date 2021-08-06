@@ -107,16 +107,45 @@ header{
 .logo_holder{
     width: 100px;
     height: 100px;
+    padding: 20px 10px 10px 10px;
     position: absolute;
+    background: #29ca8e;
+    text-align: center;
 }
-.logo_holder img{
-    width: 100%;
-    height: 100%;
+.Mallax_logo{
+    color: white;
+    font-size: 50px;
+    vertical-align: middle;
 }
 /* header banner section */
 .header_banner_section{
-    /* background-image: url(resources/img/work-1.jpg); */
-    background: url("resources/img/work-1.jpg");
+    background: url("../img/image.jfif");
     width: 100%;
     height: 500px;
+    background-size: cover;
+    margin: 62px 0 0 0;
+    padding: 12% 0 0 0;
+    
 }
+.header_banner_section h1{
+    font-size: 30px;
+    color: #29ca8e;
+    margin: 0 0 20px 0;
+}
+.header_banner_section p{
+    font-size: 20px;
+    color: white;
+
+ }
+ .button_discover:hover{
+     background: #29ca8e;
+     color: white;
+ }
+ .button_discover{
+    border: 2px solid #29ca8e;
+    color: #29ca8e;
+    background: rgba(0,0,0,0.1);
+    padding: 15px 35px;
+    border-radius: 25px;
+    margin: 10px 0 0 0;
+ }
