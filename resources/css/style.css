@@ -5,6 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    height: 2500px;
+    font-family: 'Lato', sans-serif;
+}
 /* Row holders */
 .row{
     /* border: 3px solid brown; */
@@ -27,7 +31,7 @@ header{
 }
 /* link/contact card holder */
 .link_contact_card{
-    width: 80%;
+    width: 82%;
     margin: 0 0 0 170px;
 }
 /* Header links */
@@ -47,7 +51,7 @@ header{
 }
 .link_holder ul li{
     float: left;
-    width: 105px;
+    width: 110px;
 }
 .link_holder ul li:hover{
     background: #29ca8e;
@@ -148,4 +152,19 @@ header{
     padding: 15px 35px;
     border-radius: 25px;
     margin: 10px 0 0 0;
+ }
+ 
+ /* About us section */
+ .Aboutus_section{
+     height: 300px;
+     background: rgba(128, 128, 128,0.07);
+     text-align: center;
+     padding: 35px 0 0 0 ;
+ }
+ .Aboutus_section h1{
+     margin: 0 0 20px 0;
+     font-size: 30px;
+ }
+ .Aboutus_section p{
+     font-size: 20px;
  }
