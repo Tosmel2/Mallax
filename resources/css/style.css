@@ -168,3 +168,46 @@ header{
  .Aboutus_section p{
      font-size: 20px;
  }
+ /* Missions tatement section */
+ .mission_statement{
+     width: 100%;
+     height: 450px;
+     padding: 50px 0 0 0;
+     border: 2px solid black;
+ }
+ .simple_cards{
+     border: 2px solid #29ca8e;
+     height: 350px;
+     padding: 30px;
+ }
+ .simple_cards h2{
+    margin: 0 0 20px 0;
+}
+.first_p{
+    margin: 0 0 10px 0;
+}
+ .simple_icon_holder{
+     width: 65px;
+     height: 65px;
+     border: 1px solid #29ca8e;
+     display: inline-block;
+     text-align: center;
+     padding: 10px;
+     border-radius: 50%;
+     line-height: 3;
+ }
+ .simple_icons{
+    color: #29ca8e;
+    font-size: 25px;
+ }
+
+ .simple_cards:hover .simple_icon_holder{
+     background: #29ca8e;
+
+ }
+ .simple_cards:hover .simple_icons{
+     color: white;
+ }
+ .simple_cards:hover{
+     color: #29ca8e;
+ }
