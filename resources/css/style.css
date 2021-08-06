@@ -1,0 +1,122 @@
+/* #29ca8e */
+/* Universal styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Row holders */
+.row{
+    /* border: 3px solid brown; */
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* Header section */
+header{
+    border-top: 5px solid #29ca8e;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+}
+
+.header_items{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* link/contact card holder */
+.link_contact_card{
+    width: 80%;
+    margin: 0 0 0 170px;
+}
+/* Header links */
+.link_holder{
+   clear: both;
+    /* margin: 0 0 0 100px; */
+}
+.link_holder ul{
+   list-style: none; 
+}
+
+.link_holder ul a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 10px;
+}
+.link_holder ul li{
+    float: left;
+    width: 105px;
+}
+.link_holder ul li:hover{
+    background: #29ca8e;
+}
+.link_holder ul a:hover{
+    background: #29ca8e;
+    color: white;
+}
+.active_link{
+   background: #29ca8e;
+   color: white!important; 
+}
+
+.li_link{
+    display: inline-block;
+}
+/* header icon */
+.icon_holder{
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    background: #29ca8e;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 0.5;
+}
+.icon{
+    color: white;
+    font-size: 16px;
+    margin: 0px 10px 0px 0px;
+    vertical-align: middle;
+}
+/* .icon:hover{
+    color: white;
+} */
+.Contact_holder{
+    padding: 13px 10px;
+    box-sizing: border-box;
+}
+.Contact_holder:hover{
+    background: #29ca8e;
+    color: white;
+}
+.Contact_holder:hover .icon{
+    color: white;
+
+}
+.Contact_holder:hover .icon_holder{
+    border: 1px solid white;
+
+}
+
+/* Header logo section */
+.logo_holder{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.logo_holder img{
+    width: 100%;
+    height: 100%;
+}
+/* header banner section */
+.header_banner_section{
+    /* background-image: url(resources/img/work-1.jpg); */
+    background: url("resources/img/work-1.jpg");
+    width: 100%;
+    height: 500px;
+}
